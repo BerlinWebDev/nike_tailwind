@@ -3,16 +3,17 @@ import {
   Footer,
   SuperQuality,
   Services,
-  SpecialOffer,
+  SpecialOffers,
   Subscribe,
   Hero,
   PopularProducts,
 } from "./sections";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <main className="relative">
-      Navbar
+      <Navbar />
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
       </section>
@@ -26,7 +27,7 @@ const App = () => {
         <Services />
       </section>
       <section className="padding">
-        <SpecialOffer />
+        <SpecialOffers />
       </section>
       <section className="bg-pale-blue padding">
         <CustomerReviews />
